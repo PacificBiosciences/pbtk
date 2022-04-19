@@ -1,3 +1,4 @@
+<img src="img/pbtk.png" alt="pbtk logo" width="120px" align="right"/>
 <h1 align="center">pbtk</h1>
 <p align="center">PacBio BAM toolkit</p>
 
