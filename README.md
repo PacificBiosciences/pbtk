@@ -14,6 +14,8 @@ for information on Installation, Support, License, Copyright, and Disclaimer.
 ## Tools
 
 This repository is replacing individual tool repositories and binaries from `pbbam`.
+In bioconda, `pbtk` is a dependency of `pbbam`, so you won't see immediately
+that those binaries are longer from `pbbam` directly.
 
  *  ccs-kinetics-bystrandify
  *  extracthifi
@@ -25,3 +27,13 @@ This repository is replacing individual tool repositories and binaries from `pbb
 ## Usage
 
 TBD
+
+## Changelog
+
+ * **3.0.0**
+   * Add `zmwfilter —show-all`
+   * Add `pbindexdump —zmws-only`
+   * Add `REVIO` platform
+
+ * 1.0.0
+   * Gather all tools into `pbtk`
