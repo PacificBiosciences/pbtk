@@ -17,16 +17,29 @@ This repository is replacing individual tool repositories and binaries from `pbb
 In bioconda, `pbtk` is a dependency of `pbbam`, so you won't see immediately
 that those binaries are longer from `pbbam` directly.
 
- *  ccs-kinetics-bystrandify
- *  extracthifi
- *  pbindex
- *  pbindexdump
- *  pbmerge
- *  zmwfilter
+ *  `ccs-kinetics-bystrandify`
+ *  `extracthifi`
+ *  `pbindex`
+ *  `pbindexdump`
+ *  `pbmerge`
+ *  `zmwfilter`
 
 ## Usage
 
-TBD
+### `zmwfilter`
+zmwfilter provides a simple utility for filtering PacBio BAM data on ZMW ID(s), via either an "include-list" or "exclude-list".
+
+
+ID list from command line:
+```
+$ zmwfilter --include 100,200 input.bam filtered.out.bam
+$ zmwfilter --exclude 50 input.bam filtered.out.bam
+```
+ID list from file:
+```
+$ zmwfilter --include good-zmws.txt input.bam filtered.out.bam
+$ zmwfilter --exclude bad-zmws.txt input.bam filtered.out.bam
+```
 
 ## Changelog
 
