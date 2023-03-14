@@ -17,6 +17,8 @@ This repository is replacing individual tool repositories and binaries from `pbb
 In bioconda, `pbtk` is a dependency of `pbbam`, so you won't see immediately
 that those binaries are longer from `pbbam` directly.
 
+ *  `bam2fasta`
+ *  `bam2fastq`
  *  `ccs-kinetics-bystrandify`
  *  `extracthifi`
  *  `pbindex`
