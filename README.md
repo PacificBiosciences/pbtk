@@ -28,6 +28,15 @@ that those binaries are longer from `pbbam` directly.
 
 ## Usage
 
+### `bam2fastx`
+Both tools have an identical interface and take BAM and/or DataSet files as input. Examples:
+
+```
+bam2fasta -o projectName m54008_160330_053509.subreads.bam
+bam2fastq -o myEcoliRuns m54008_160330_053509.subreads.bam m54008_160331_235636.subreads.bam
+bam2fasta -o myHumanGenome m54012_160401_000001.subreadset.xml
+```
+
 ### `zmwfilter`
 zmwfilter provides a simple utility for filtering PacBio BAM data on ZMW ID(s), via either an "include-list" or "exclude-list".
 
