@@ -140,7 +140,11 @@ zmwfilter --num-passes 4 --downsample 0.333 in.bam out.bam
 
 ## Changelog
 
- * **3.0.0**
+ * **3.1.1**
+   * SMRT Link v13 release
+   * Fix `ccs-bystrandify-kinetics` output
+
+ * 3.0.0
    * Add `zmwfilter —show-all`
    * Add `pbindexdump —zmws-only`
    * Add `REVIO` platform
