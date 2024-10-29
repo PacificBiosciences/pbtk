@@ -140,7 +140,11 @@ zmwfilter --num-passes 4 --downsample 0.333 in.bam out.bam
 
 ## Changelog
 
- * **3.1.1**
+ * **3.4.0**
+   * SMRT Link v25.1 release
+   * Support mixed BAM types in `pbmerge`
+
+ * 3.1.1
    * SMRT Link v13 release
    * Fix `ccs-bystrandify-kinetics` output
 
