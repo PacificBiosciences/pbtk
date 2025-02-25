@@ -140,7 +140,10 @@ zmwfilter --num-passes 4 --downsample 0.333 in.bam out.bam
 
 ## Changelog
 
- * **3.4.0**
+ * **3.5.0**
+   * Support ultra-high memory Linux systems
+
+ * 3.4.0
    * SMRT Link v25.1 release
    * Support mixed BAM types in `pbmerge`
 
